@@ -2,7 +2,7 @@
 Ejercicio TiendaSmartSoft
 
 
-
+//Elementos Json utilizados para el ejercicio 
 
 {
     "num_factura"  : 5,
