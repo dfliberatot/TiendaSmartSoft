@@ -20,7 +20,7 @@ export class FacturaComponent implements OnInit {
 
   precioProdSelec:number;
   productoFila:any=[
-    {
+/*     {
       idProducto:20,
       descripcion:'Chucula',
       cantidad:12,
@@ -32,7 +32,7 @@ export class FacturaComponent implements OnInit {
       descripcion:'Bolsa de pan x12',
       cantidad:1,
       precioU:2000
-    }
+    } */
   ];
 
 

@@ -11,8 +11,8 @@ export class FacturaService {
   numFactura:number=1;
   numCliente:number=1;
 
-  private clientes=[   // la variable es de tipo Heroe como en la interface
-    {
+  private clientes=[   
+/*     {
       nombre: "John Mendoza",
       id: 1,
       direccion: "brisas de vasconia",
@@ -23,12 +23,12 @@ export class FacturaService {
       id: 2,
       direccion: "centro",
       telefono: "3215684013",
-    }
+    } */
   ]
 
 
   private productos =[
-    {
+/*     {
       idProducto:1,
       descripcion:"Chocolate libra",
       precioU:2500
@@ -50,7 +50,7 @@ export class FacturaService {
       idProducto:4,
       descripcion:"Galleta saltin paquete x 5 tacos",
       precioU:4500
-    }
+    } */
   ]
 
 
