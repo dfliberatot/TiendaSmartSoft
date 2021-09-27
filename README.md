@@ -3,15 +3,6 @@ Ejercicio TiendaSmartSoft
 
 
 
-{
-    "num_detalle"  : 1,
-    "cantidad"  : 2,
-    "precio"  : 500,
-    "factura" :{"id_factura" : 1},
-    "producto" : {"id_producto" : 1}
-}
-
-
 
 {
     "num_factura"  : 5,
@@ -22,11 +13,10 @@ Ejercicio TiendaSmartSoft
 }
 
 
-
-
 {
     "detallepk" : {"num_detalle"  : 1  , "factura" : {"num_factura": 3}} ,
     "cantidad"  : 2,
     "precio"  : 500,
     "producto" : {"id_producto" : 1}
 }
+
