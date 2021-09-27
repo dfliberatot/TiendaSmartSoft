@@ -24,6 +24,8 @@ public class Cliente implements Serializable{
 	private int id_cliente;
 	@Column(name= "NOMBRE")
 	private String nombre;
+	@Column(name= "APELLIDO")
+	private String apellido;
 	@Column(name= "DIRECCION")
 	private String direccion;	
 	@Temporal(TemporalType.DATE)
@@ -33,11 +35,9 @@ public class Cliente implements Serializable{
 	private int telefono;
 	@Column(name= "EMAIL")
 	private String email;
-	
-	
 
 ////////////////// Getter and Setter //////////////////////////	
-	
+
 	public int getId_cliente() {
 		return id_cliente;
 	}
@@ -49,6 +49,12 @@ public class Cliente implements Serializable{
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 	public String getDireccion() {
 		return direccion;
@@ -74,7 +80,14 @@ public class Cliente implements Serializable{
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 	
+	
+
+
+
 	
 	
 }
